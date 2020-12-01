@@ -1,0 +1,6 @@
+# sublime text project files
+*.sublime-project
+*.sublime-workspace
+
+# npm files
+node_modules

@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-css-playground",
+  "version": "1.0.0",
+  "description": "Minu katsetused tailwindcss raamistikuga",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss build tailwind.css -o style.css",
+    "autoprefixer": "postcss style.css -u autoprefixer --no-map -o style.css",
+    "minify": "postcss style.css -u cssnano --no-map -o style.min.css",
+    "build": "npm run tailwind && npm run autoprefixer",
+    "production": "npm run tailwind && npm run autoprefixer && npm run minify"
+  },
+  "keywords": [],
+  "author": "Erik Uus",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.0.1"
+  }
+}
