@@ -1,6 +1,15 @@
 module.exports = {
+  // presets: [
+  //   require('./tailwind.preset.js')
+  // ],
+  // corePlugins: {
+  //   preflight: false,
+  // },
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
   purge: {
-    enabled: true,
+    enabled: false,
     content: [
       './*.html',
       './*.php',
@@ -8,5 +17,4 @@ module.exports = {
   },
   theme: {},
   variants: {},
-  plugins: [],
 }
