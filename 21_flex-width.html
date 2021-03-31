@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="m-10">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="space-y-4">
+
+	<p>
+		Maksimaalne pikkus määratud; jääb selle pikkuse juurde
+	</p>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-none m-2 p-4 w-64 bg-yellow-500">flex-none 1</div>
+		<div class="flex-none m-2 p-4 w-64 bg-yellow-500">flex-none 2</div>
+		<div class="flex-none m-2 p-4 w-64 bg-yellow-500">flex-none 3</div>
+	</div>	
+
+	<p>
+		Maksimaalne pikkus määratud; kohaneb väiksema ekraaniga
+	</p>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-initial m-2 p-4 w-64 bg-yellow-500">flex-initial 1</div>
+		<div class="flex-initial m-2 p-4 w-64 bg-yellow-500">flex-initial 2</div>
+		<div class="flex-initial m-2 p-4 w-64 bg-yellow-500">flex-initial 3</div>
+	</div>
+
+	<p>
+		Jaotab võrdselt laiust arvestamata; kohaneb väiksema ekraaniga (NB! Kui parent flex-col, siis näitab etteantud pikkuses)
+	</p>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-1 m-2 p-4 w-36 bg-yellow-500">flex-1 1</div>
+		<div class="flex-1 m-2 p-4 w-64 bg-yellow-500">flex-1 2</div>
+		<div class="flex-1 m-2 p-4 w-96 bg-yellow-500">flex-1 3</div>
+	</div>
+
+	<p>
+		Jaotab pikkuse suhte järgi; kohaneb väiksema ekraaniga (NB! Kui parent flex-col, siis näitab etteantud pikkuses)
+	</p>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-auto m-2 p-4 w-36 bg-yellow-500">flex-auto 1</div>
+		<div class="flex-auto m-2 p-4 w-64 bg-yellow-500">flex-auto 2</div>
+		<div class="flex-auto m-2 p-4 w-96 bg-yellow-500">flex-auto 3</div>
+	</div>
+
+	<p>
+		Võrdle inline-block elemntidega, mille pikkused samad (36, 64, 96)
+	</p>
+
+	<div class="bg-gray-200 p-2">
+		<div class="inline-block m-2 p-4 bg-blue-500 w-36">inline-block</div>
+		<div class="inline-block m-2 p-4 bg-blue-500 w-64">inline-block</div>
+		<div class="inline-block m-2 p-4 bg-blue-500 w-96">inline-block</div>
+	</div>
+
+</body>
+</html>

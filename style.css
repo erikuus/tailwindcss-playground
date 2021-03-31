@@ -1,3 +1,5 @@
+/*! tailwindcss v2.0.4 | MIT License | https://tailwindcss.com */
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
@@ -440,15 +442,18 @@ textarea {
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
   color: #9ca3af;
 }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1;
   color: #9ca3af;
 }
 
 input::placeholder,
 textarea::placeholder {
+  opacity: 1;
   color: #9ca3af;
 }
 
@@ -802,10 +807,10 @@ h2 {
 .btn-blue {
   border-radius: 0.25rem;
   font-weight: 700;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
@@ -11012,6 +11017,10 @@ h2 {
   cursor: move;
 }
 
+.cursor-help {
+  cursor: help;
+}
+
 .cursor-not-allowed {
   cursor: not-allowed;
 }
@@ -18684,7 +18693,6 @@ h2 {
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -41649,6 +41657,10 @@ h2 {
     cursor: move;
   }
 
+  .sm\:cursor-help {
+    cursor: help;
+  }
+
   .sm\:cursor-not-allowed {
     cursor: not-allowed;
   }
@@ -49321,7 +49333,6 @@ h2 {
   }
 
   .sm\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -72193,6 +72204,10 @@ h2 {
     cursor: move;
   }
 
+  .md\:cursor-help {
+    cursor: help;
+  }
+
   .md\:cursor-not-allowed {
     cursor: not-allowed;
   }
@@ -79865,7 +79880,6 @@ h2 {
   }
 
   .md\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -102737,6 +102751,10 @@ h2 {
     cursor: move;
   }
 
+  .lg\:cursor-help {
+    cursor: help;
+  }
+
   .lg\:cursor-not-allowed {
     cursor: not-allowed;
   }
@@ -110409,7 +110427,6 @@ h2 {
   }
 
   .lg\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -133281,6 +133298,10 @@ h2 {
     cursor: move;
   }
 
+  .xl\:cursor-help {
+    cursor: help;
+  }
+
   .xl\:cursor-not-allowed {
     cursor: not-allowed;
   }
@@ -140953,7 +140974,6 @@ h2 {
   }
 
   .xl\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -163825,6 +163845,10 @@ h2 {
     cursor: move;
   }
 
+  .\32xl\:cursor-help {
+    cursor: help;
+  }
+
   .\32xl\:cursor-not-allowed {
     cursor: not-allowed;
   }
@@ -171497,7 +171521,6 @@ h2 {
   }
 
   .\32xl\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 

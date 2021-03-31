@@ -1,21 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html class="m-10">
 <head>
 	<title></title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body class="space-y-4">
 
-	<div class="flex bg-gray-200 p-2">
-		<div class="flex-none m-2 p-4 w-32 bg-yellow-500">flex-none</div>
-		<div class="flex-grow m-2 p-4 bg-yellow-500">flex-grow</div>
-		<div class="flex-none m-2 p-4 w-32 bg-yellow-500">flex-none</div>
-	</div>
+	<p>
+		Teeb ennast nii pikaks kui võimalik; kohaneb väiksema ekraaniga
+	</p>
 
 	<div class="flex bg-gray-200 p-2">
-		<div class="flex-grow m-2 p-4 w-32 bg-yellow-500">flex-grow</div>
-		<div class="flex-grow-0 m-2 p-4 w-32 bg-yellow-500">flex-grow-0</div>
-		<div class="flex-grow m-2 p-4 w-32 bg-yellow-500">flex-grow</div>
+		<div class="flex-none m-2 p-4 w-96 bg-yellow-500">flex-none</div>
+		<div class="flex-grow m-2 p-4 w-96 bg-yellow-500">flex-grow</div>
+		<div class="flex-none m-2 p-4 w-96 bg-yellow-500">flex-none</div>
+	</div>
+
+	<p>
+		"flex-grow" toimib samamoodi nagu "flex-1"
+	</p>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-none m-2 p-4 w-96 bg-blue-500">flex-none</div>
+		<div class="flex-1 m-2 p-4 w-96 bg-blue-500">flex-1</div>
+		<div class="flex-none m-2 p-4 w-96 bg-blue-500">flex-none</div>
+	</div>
+
+	<p>
+		Maksimaalne pikkus määratud; kohaneb väiksema ekraaniga
+	</p>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-grow m-2 p-4 w-96 bg-yellow-500">flex-grow</div>
+		<div class="flex-grow-0 m-2 p-4 w-96 bg-yellow-500">flex-grow-0</div>
+		<div class="flex-grow m-2 p-4 w-96 bg-yellow-500">flex-grow</div>
+	</div>
+
+	<p>
+		"flex-grow-0" toimib samamoodi nagu "flex-initial"
+	</p>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-grow m-2 p-4 w-96 bg-blue-500">flex-grow</div>
+		<div class="flex-initial m-2 p-4 w-96 bg-blue-500">flex-initial</div>
+		<div class="flex-grow m-2 p-4 w-96 bg-blue-500">flex-grow</div>
 	</div>
 
 </body>
