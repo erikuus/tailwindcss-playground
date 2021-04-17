@@ -5,16 +5,15 @@ module.exports = {
   // corePlugins: {
   //   preflight: false,
   // },
+  mode: 'jit',
+  purge: [
+    './docs/*.html',
+    './labs/*.html'
+  ],
   plugins: [
     require('@tailwindcss/forms'),
+    require('@tailwindcss/typography')
   ],
-  purge: {
-    enabled: false,
-    content: [
-      './*.html',
-      './*.php',
-    ],
-  },
   theme: {},
   variants: {},
 }

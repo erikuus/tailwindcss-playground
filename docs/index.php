@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html class="m-10">
 <head>
 	<title></title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 	<div class="bg-blue-100 md:bg-blue-200 lg:bg-blue-300 xl:bg-blue-400 2xl:bg-blue-500">
