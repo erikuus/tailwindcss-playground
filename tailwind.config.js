@@ -8,7 +8,8 @@ module.exports = {
   mode: 'jit',
   purge: [
     './docs/*.html',
-    './labs/*.html'
+    './labs/*.html',
+    './views/*.php',
   ],
   plugins: [
     require('@tailwindcss/forms'),
