@@ -9,7 +9,7 @@ module.exports = {
   purge: [
     './docs/*.html',
     './labs/*.html',
-    './views/*.php',
+    './views/*.php'
   ],
   plugins: [
     require('@tailwindcss/forms'),
