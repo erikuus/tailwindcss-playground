@@ -4,8 +4,8 @@
   "description": "Minu katsetused tailwindcss raamistikuga",
   "main": "tailwind.config.js",
   "scripts": {
-    "dev": "postcss tailwind.css -o style.css -w --verbose",
-    "build": "postcss tailwind.css -o style.css",
+    "dev": "npx tailwindcss -o style.css --watch",
+    "build": "npx tailwindcss -o style.css",
     "minify": "postcss style.css -u cssnano --no-map -o style.min.css"
   },
   "keywords": [],
@@ -16,8 +16,8 @@
     "@tailwindcss/typography": "^0.4.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
-    "tailwindcss": "^2.1.1"
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
   }
 }
