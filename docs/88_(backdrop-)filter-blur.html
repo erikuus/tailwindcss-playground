@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="m-10">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="../style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="space-y-10">
+
+	<p>
+		<b>filter blur-{ |sm|md|lg|xl|2xl|3xl|none}</b>
+	</p>
+
+	<div class="flex space-x-20">
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-sm">sm</div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur"></div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-md">md</div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-lg">lg</div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-xl">xl</div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-2xl">2xl</div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-3xl">3xl</div>
+	</div>
+
+	<div class="flex space-x-20">
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-sm"><img src="test.png"></div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur"><img src="test.png"></div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-md"><img src="test.png"></div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-lg"><img src="test.png"></div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-xl"><img src="test.png"></div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-2xl"><img src="test.png"></div>
+		<div class="p-2 w-24 bg-yellow-500 text-center filter blur-3xl"><img src="test.png"></div>
+	</div>
+
+	<p>
+		<b>backdrop-filter backdrop-blur-{ |sm|md|lg|xl|2xl|3xl|none}</b>
+	</p>
+
+	<div class="flex space-x-5">
+		<div class="flex items-center justify-center bg-cover bg-no-repeat bg-center w-48 h-48" style="background-image: url(test.jpg);">
+			<div class="p-2 w-36 h-36 border border-gray-500 text-center backdrop-filter backdrop-blur-sm">sm</div>
+		</div>
+		<div class="flex items-center justify-center bg-cover bg-no-repeat bg-center w-48 h-48" style="background-image: url(test.jpg);">
+			<div class="p-2 w-36 h-36 border border-gray-500 text-center backdrop-filter backdrop-blur">&nbsp;</div>
+		</div>
+		<div class="flex items-center justify-center bg-cover bg-no-repeat bg-center w-48 h-48" style="background-image: url(test.jpg);">
+			<div class="p-2 w-36 h-36 border border-gray-500 text-center backdrop-filter backdrop-blur-md">md</div>
+		</div>
+		<div class="flex items-center justify-center bg-cover bg-no-repeat bg-center w-48 h-48" style="background-image: url(test.jpg);">
+			<div class="p-2 w-36 h-36 border border-gray-500 text-center backdrop-filter backdrop-blur-lg">lg</div>
+		</div>
+		<div class="flex items-center justify-center bg-cover bg-no-repeat bg-center w-48 h-48" style="background-image: url(test.jpg);">
+			<div class="p-2 w-36 h-36 border border-gray-500 text-center backdrop-filter backdrop-blur-xl">xl</div>
+		</div>
+		<div class="flex items-center justify-center bg-cover bg-no-repeat bg-center w-48 h-48" style="background-image: url(test.jpg);">
+			<div class="p-2 w-36 h-36 border border-gray-500 text-center backdrop-filter backdrop-blur-2xl">2xl</div>
+		</div>
+		<div class="flex items-center justify-center bg-cover bg-no-repeat bg-center w-48 h-48" style="background-image: url(test.jpg);">
+			<div class="p-2 w-36 h-36 border border-gray-500 text-center backdrop-filter backdrop-blur-3xl">3xl</div>
+		</div>
+	</div>
+
+</body>
+</html>
