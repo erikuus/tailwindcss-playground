@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="m-10">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="../style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="space-y-10">
+
+	<p>
+		<b>transition-{ |none|all|colors|opacity|shadow|transform} delay-{75|100|150|200|300|500|700|1000} duration-{75|100|150|200|300|500|700|1000} ease-{linear|in|out|in-out}</b>
+	</p>
+
+	<p>
+		transition
+	</p>
+
+	<div class="flex space-x-10">
+		<div class="p-2 w-24 text-center transition duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">...</div>
+		<div class="p-2 w-24 text-center transition-none duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">none</div>
+		<div class="p-2 w-24 text-center transition-all duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">all</div>
+		<div class="p-2 w-24 text-center transition-colors duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">colors</div>
+		<div class="p-2 w-24 text-center transition-opacity duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">opacity</div>
+		<div class="p-2 w-24 text-center transition-shadow duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">shadow</div>
+		<div class="p-2 w-24 text-center transition-transform duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">transform</div>
+	</div>
+
+	<p>
+		delay
+	</p>
+
+	<div class="flex space-x-10">
+		<div class="p-2 w-24 text-center transition delay-75 duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">75</div>
+		<div class="p-2 w-24 text-center transition delay-100 duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">100</div>
+		<div class="p-2 w-24 text-center transition delay-150 duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">150</div>
+		<div class="p-2 w-24 text-center transition delay-200 duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">200</div>
+		<div class="p-2 w-24 text-center transition delay-300 duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">300</div>
+		<div class="p-2 w-24 text-center transition delay-500 duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">500</div>
+		<div class="p-2 w-24 text-center transition delay-700 duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">700</div>
+		<div class="p-2 w-24 text-center transition delay-700 duration-1000 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">1000</div>
+	</div>
+
+	<p>
+		duration
+	</p>
+
+	<div class="flex space-x-10">
+		<div class="p-2 w-24 text-center transition duration-75 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">75</div>
+		<div class="p-2 w-24 text-center transition duration-100 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">100</div>
+		<div class="p-2 w-24 text-center transition duration-150 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">150</div>
+		<div class="p-2 w-24 text-center transition duration-200 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">200</div>
+		<div class="p-2 w-24 text-center transition duration-300 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">300</div>
+		<div class="p-2 w-24 text-center transition duration-500 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">500</div>
+		<div class="p-2 w-24 text-center transition duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">700</div>
+		<div class="p-2 w-24 text-center transition duration-1000 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">1000</div>
+	</div>
+
+	<p>
+		éase
+	</p>
+
+	<div class="flex space-x-10">
+		<div class="p-2 w-24 text-center transition duration-1000 ease-linear bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">linear</div>
+		<div class="p-2 w-24 text-center transition duration-1000 ease-in bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">in</div>
+		<div class="p-2 w-24 text-center transition duration-700 ease-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">out</div>
+		<div class="p-2 w-24 text-center transition duration-700 ease-in-out bg-gray-200 hover:bg-gray-100 hover:shadow-xl transform hover:scale-110 hover:opacity-50">in-out</div>
+	</div>
+
+	<ul>
+		<li>linear - transitions at an even speed</li>
+		<li>ease-in - with the transition speed increasing until complete</li>
+		<li>ease-out - starts transitioning quickly, slowing down the transition continues</li>
+		<li>ease-in-out - starts transitioning slowly, speeds up, and then slows down again</li>
+	</ul>
+
+</body>
+</html>
