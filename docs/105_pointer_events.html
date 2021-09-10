@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="m-10">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="../style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="space-y-4">
+
+	<p>
+		<b>ponter-events-{none|auto}</b>
+	</p>
+
+	<p>
+		Use pointer-events-auto to revert to the default browser behavior for pointer events (like :hover and click).
+	</p>
+
+	<p>
+		Use pointer-events-none to make an element ignore pointer events. The pointer events will still trigger on child elements and pass-through to elements that are “beneath” the target.
+	</p>
+
+	<div class="w-64 space-y-4">
+		<div class="relative">
+			<select class="appearance-none w-full border border-gray-300 rounded focus:outline-none">
+				<option>Indiana</option>
+				<option>Michigan</option>
+				<option>Ohio</option>
+			</select>
+			<div class="absolute flex inset-y-0 items-center px-3 right-0 text-gray-700 bg-yellow-300 rounded-r pointer-events-auto">
+	        	<svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
+			</div>
+		</div>
+
+		<div class="relative">
+			<select class="appearance-none w-full border border-gray-300 rounded focus:outline-none">
+				<option>Indiana</option>
+				<option>Michigan</option>
+				<option>Ohio</option>
+			</select>
+			<div class="absolute flex inset-y-0 items-center px-3 right-0 text-gray-700 bg-yellow-300 rounded-r pointer-events-none">
+				<svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

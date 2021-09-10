@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="m-10">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="../style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="space-y-4">
+
+	<p>
+		<b>outline-{none|black|white}</b>
+	</p>
+
+	<p>
+		Use to hide the default browser outline on focused elements.
+	</p>
+
+	<input type="text" class="outline-none p-2 mr-10" placeholder="outline-none"/>
+	<input type="text" class="focus:outline-none focus:ring focus:border-blue-300 p-2 mr-10"  placeholder="focus:outline-none" />
+  	<button class="rounded-xl p-2 mr-10 w-24 bg-yellow-500 text-center outline-black">black</button>
+  	<div class="inline p-4 bg-blue-500">
+		<button class="rounded-xl p-2 w-24 bg-yellow-500 text-center outline-white">white</button>
+	</div>
+
+</body>
+</html>
