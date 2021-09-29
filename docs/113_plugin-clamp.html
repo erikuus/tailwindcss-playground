@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="m-10">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="../style.css">
+</head>
+<body class="space-y-10">
+
+	<p>
+		<b>line-clamp-{none}-{1,2 ...5,6}</b>
+	</p>
+
+	<pre class="font-mono text-xs text-gray-500">
+// install plugin
+npm install @tailwindcss/line-clamp
+
+// tailwind.config.js
+module.exports = {
+	theme: {
+		// ...
+	},
+	plugins: [
+		require('@tailwindcss/line-clamp'),
+		// ...
+	],
+}
+
+// build
+npx tailwindcss -o style.css
+	</pre>
+
+	<p class="line-clamp-3 w-96">
+		<b>line-clamp-3</b> Et molestiae hic earum repellat aliquid est doloribus delectus. Enim illum odio porro ut omnis dolor debitis natus. Voluptas possimus deserunt sit delectus est saepe nihil. Qui voluptate possimus et quia. Eligendi voluptas voluptas dolor cum. Rerum est quos quos id ut molestiae fugit.
+	</p>
+
+	<p class="line-clamp-3 md:line-clamp-none w-96">
+		<b>line-clamp-3 md:line-clamp-none</b> Et molestiae hic earum repellat aliquid est doloribus delectus. Enim illum odio porro ut omnis dolor debitis natus. Voluptas possimus deserunt sit delectus est saepe nihil. Qui voluptate possimus et quia. Eligendi voluptas voluptas dolor cum. Rerum est quos quos id ut molestiae fugit.
+	</p>
+
+</body>
+</html>
