@@ -8,10 +8,18 @@
 <body class="space-y-4">
 
 	<p>
-		grid grid-cols-4 grid-flow-row (vaikimisi väärtus)
+		<b>grid grid-cols-{n} grid-flow-{row|row-dense}</b>
 	</p>
 
-	<div class="grid grid-cols-4 gap-4 grid-flow-row w-96 bg-gray-200">
+	<p>
+		NB! Et "grid-cols" toimiks <b>ei pea</b> olema alati juures "grid-flow-row".
+	</p>
+
+	<p>
+		3 row
+	</p>
+
+	<div class="grid grid-cols-3 gap-4 grid-flow-row w-96 bg-gray-200">
 		<div class="p-4 bg-yellow-500">1</div>
 		<div class="p-4 bg-yellow-500">2</div>
 		<div class="p-4 bg-yellow-500">3</div>
@@ -24,7 +32,7 @@
 	</div>
 
 	<p>
-		grid grid-cols-4 grid-flow-row-dense
+		4 row-dense
 	</p>
 
 	<div class="grid grid-cols-4 gap-4 grid-flow-row-dense w-96 bg-gray-200">

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="m-10">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="../style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="space-y-4">
+
+	<p>
+		<b>flex > flex-{shrink|shrink-0}</b>
+	</p>
+
+	<p>
+		Hoiab etteantud pikkust kuni võimalik ja kui ruum otsa saab, kahaneb alla selle; kasvab suuremaks
+	</p>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-grow m-2 p-4 bg-gray-500">grow</div>
+		<div class="flex-shrink m-2 p-4 w-96 bg-yellow-500">shrink</div>
+		<div class="flex-grow m-2 p-4 bg-gray-500">grow</div>
+	</div>
+
+	<p>
+		Ei kahane alla etteantud pikkust, aga kasvab suuremaks
+	</p>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-1 m-2 p-4 bg-gray-500">1</div>
+		<div class="flex-shrink-0 m-2 p-4 w-96 bg-yellow-500">shrink-0</div>
+		<div class="flex-1 m-2 p-4 bg-gray-500">1</div>
+	</div>
+
+</body>
+</html>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html class="m-10">
 <head>
 	<title></title>
 	<link rel="stylesheet" href="../style.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
-<body class="p-10">
+<body>
 
-<!--
+	<pre class="font-mono text-xs text-gray-500">
 // tailwind.config.js
 const colors = require('tailwindcss/colors')
 module.exports = {
@@ -34,7 +34,11 @@ module.exports = {
 	},
 }
 // build
-npx tailwindcss-cli@latest build ./tailwind.css -o ./../style.css
+npx tailwindcss -o style.css
+	</pre>
+
+<!--
+
 -->
 
 	<h2 class="mb-5">Title</h2>

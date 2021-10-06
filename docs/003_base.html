@@ -7,25 +7,26 @@
 </head>
 <body>
 
-<!--
+	<pre class="font-mono text-xs text-gray-500">
 // tailwind.css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-	h1 {
-		@apply text-2xl;
-	}
-	h2 {
-		@apply text-xl text-gray-600;
-	}
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
 }
 // build
-npx tailwindcss-cli@latest build ./tailwind.css -o ./../style.css
--->
+npx tailwindcss -o style.css
+	</pre>
 
 	<h1>Title 1</h1>
+
 	<h2>Title 2</h2>
 
 </body>

@@ -10,31 +10,30 @@
 	<div class="flex space-x-8 m-4">
 		<div class="flex-1 space-y-6">
 			<p>
-				<b>hover:</b>
-			</p>
-
-			<div class="h-10 w-10 bg-yellow-500 hover:bg-blue-500"></div>
-
-			<p>
-				<b>group>group-hover:</b>
-			</p>
-
-			<div class="inline-block p-4 bg-yellow-500 hover:bg-blue-500 group">
-				<p class="p-4 text-white group-hover:text-green-500">group-hover:text-green-500</p>
-				<p class="p-4 text-white group-hover:text-red-500">group-hover:text-red-500</p>
-			</div>
-
-			<p>
 				<b>focus:</b>
 			</p>
 
-			<input type="text" class="border border-gray-300 focus:border-blue-500 focus:ring-blue-500 w-48">
+			<input type="text" class="w-48 border border-gray-300 focus:border-blue-500 focus:ring-blue-500">
+
+			<p>
+				<b>focus-visible:</b>
+			</p>
+
+			<button type="button" class="py-2 px-4 bg-yellow-500 text-white rounded-lg focus:outline-none focus-visible:bg-yellow-600">Click</button>
+
+			<p>
+				<b>focus-within:</b>
+			</p>
+
+			<button class="p-6 bg-yellow-500 focus-within:bg-yellow-600">
+				<input type="text" class="border border-gray-300 focus:border-blue-500 focus:ring-blue-500 w-48">
+			</button>
 
 			<p>
 				<b>group>group-focus:</b>
 			</p>
 
-			<button class="p-4 rounded-2xl group bg-yellow-500 focus:bg-yellow-600">
+			<button class="w-24 h-24 p-4 rounded-2xl group bg-yellow-500 focus:bg-yellow-600">
 				<svg class="fill-current text-white group-focus:text-yellow-300" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 66 66" viewBox="0 0 66 66"><path d="M27.3401,11.8461l-1.3561,5.7843l-5.4597-2.618C22.5965,13.5699,24.9082,12.4952,27.3401,11.8461z M25.5068,19.666
 				l-1.1092,4.7314l-4.7306,1.109L14.281,14.283L25.5068,19.666z M15.0108,20.5207l2.6214,5.4626l-5.7825,1.3556
 				C12.4932,24.9011,13.5664,22.5881,15.0108,20.5207z M24.9267,26.37l1.051,1.0508l4.5583,4.5581H1.001L24.9267,26.37z M1,34.0201
@@ -52,10 +51,24 @@
 				C43.3305,52.4559,41.0489,53.51,38.6616,54.1468z M40.4741,46.4153l1.1284-4.8132l4.8211-1.1303l5.4997,11.4415L40.4741,46.4153z
 				 M51.052,45.389l-2.5928-5.3943l5.6996-1.3362C53.5226,41.048,52.4681,43.3306,51.052,45.389z M41.0733,39.6295l-5.6094-5.6094
 				L65,34.0206L41.0733,39.6295z"/></svg>
-				Click me
 			</button>
+
 		</div>
 		<div class="flex-1 space-y-6">
+			<p>
+				<b>hover:</b>
+			</p>
+
+			<div class="h-10 w-10 bg-yellow-500 hover:bg-blue-500"></div>
+
+			<p>
+				<b>group>group-hover:</b>
+			</p>
+
+			<div class="inline-block p-4 bg-yellow-500 hover:bg-blue-500 group">
+				<p class="p-4 text-white group-hover:text-green-500">group-hover:text-green-500</p>
+				<p class="p-4 text-white group-hover:text-red-500">group-hover:text-red-500</p>
+			</div>
 			<p>
 				<b>active:</b>
 			</p>
@@ -185,11 +198,14 @@
 		</div>
 		<div class="flex-1 space-y-6">
 			<p>
-				<p>mottion-safe:{hover:scale|animate|...}</p>
+				<b>motion-{safe|reduce}:</b>
 			</p>
 			<p>
 				https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
 			</p>
+			<button class="p-4 rounded-2xl bg-yellow-500 transform hover:scale-110 motion-reduce:transform-none">
+				Hover me
+			</button>
 		</div>
 	</div>
 

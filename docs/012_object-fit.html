@@ -8,32 +8,34 @@
 <body class="space-y-10">
 
 	<p>
-		object-contain
+		<b>object-{contain|cover|fill|scale-down}</b>
 	</p>
 
-	<img class="object-contain w-96 h-96 bg-blue-200" src="test.jpg">
-	<img class="object-contain w-96 h-96 bg-blue-200" src="test.png">
+	<div class="flex space-x-8">
+		<div class="flex-1 space-y-6">
+			<p>contain</p>
+			<img class="object-contain w-80 h-80 bg-blue-200" src="test.jpg">
+			<img class="object-contain w-80 h-80 bg-blue-200" src="test.png">
+		</div>
+		<div class="flex-1 space-y-6">
+			<p>cover</p>
+			<img class="object-cover w-80 h-80 bg-blue-200" src="test.jpg">
+			<img class="object-cover w-80 h-80 bg-blue-200" src="test.png">
+		</div>
+		<div class="flex-1 space-y-6">
+			<p>fill</p>
+			<img class="object-fill w-80 h-80 bg-blue-200" src="test.jpg">
+			<img class="object-fill w-80 h-80 bg-blue-200" src="test.png">
+		</div>
+		<div class="flex-1 space-y-6">
+			<p>scale-down</p>
+			<img class="object-scale-down w-80 h-80 bg-blue-200" src="test.jpg">
+			<img class="object-scale-down w-80 h-80 bg-blue-200" src="test.png">
+		</div>
+		<div class="flex-1 space-y-6">
 
-	<p>
-		object-cover
-	</p>
-
-	<img class="object-cover w-96 h-96 bg-blue-200" src="test.jpg">
-	<img class="object-cover w-96 h-96 bg-blue-200" src="test.png">
-
-	<p>
-		object-fill
-	</p>
-
-	<img class="object-fill w-96 h-96 bg-blue-200" src="test.jpg">
-	<img class="object-fill w-96 h-96 bg-blue-200" src="test.png">
-
-	<p>
-		object-scale-down
-	</p>
-
-	<img class="object-scale-down w-96 h-96 bg-blue-200" src="test.jpg">
-	<img class="object-scale-down w-96 h-96 bg-blue-200" src="test.png">
+		</div>
+	</div>
 
 </body>
 </html>

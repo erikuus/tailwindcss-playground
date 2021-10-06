@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<!--
+	<pre class="font-mono text-xs text-gray-500">
 // tailwind.css
 @layer utilities {
   .scrl-snap-none {
@@ -21,8 +21,8 @@
   }
 }
 // build
-npx tailwindcss-cli@latest build ./tailwind.css -o ./../style.css
--->
+npx tailwindcss -o style.css
+	</pre>
 
 	<div class="w-64 h-16 overflow-x-hidden scrl-snap-y">
 		<div class="w-64 h-16 bg-red-100">1</div>

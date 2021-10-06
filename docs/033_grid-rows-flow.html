@@ -8,10 +8,18 @@
 <body class="space-y-4">
 
 	<p>
-		grid grid-rows-4 grid-flow-col (peab olema)
+		<b>grid grid-rows-{n} grid-flow-{col|col-dense}</b>
 	</p>
 
-	<div class="grid grid-rows-4 grid-flow-col gap-2 w-80 bg-gray-200">
+	<p>
+		NB! Et "grid-rows" toimiks <b>peab olema</b> alati juures "grid-flow-col".
+	</p>
+
+	<p>
+		3 col
+	</p>
+
+	<div class="grid grid-rows-3 grid-flow-col gap-3 w-96 bg-gray-200">
 		<div class="p-4 bg-yellow-500">1</div>
 		<div class="p-4 bg-yellow-500">2</div>
 		<div class="p-4 bg-yellow-500">3</div>
@@ -24,10 +32,10 @@
 	</div>
 
 	<p>
-		grid grid-rows-4 grid-flow-col-dense
+		4 col-dense
 	</p>
 
-	<div class="grid grid-rows-4 grid-flow-col-dense gap-2 w-80 bg-gray-200">
+	<div class="grid grid-rows-4 grid-flow-col-dense gap-3 w-96 bg-gray-200">
 		<div class="p-4 bg-yellow-500">1</div>
 		<div class="p-4 bg-yellow-500">2</div>
 		<div class="p-4 bg-yellow-500">3</div>

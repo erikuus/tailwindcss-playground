@@ -5,25 +5,30 @@
 	<link rel="stylesheet" href="../style.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
-<body>
+<body class="space-y-10">
 
-	<p class="mb-10">
-		object-top
+	<p>
+		<b>object-{center,left,top,right,bottom...right-bottom}</b>
 	</p>
 
-	<img class="object-none object-top w-64 h-64 bg-yellow-500" src="test.png">
-
-	<p class="my-10">
-		object-center
-	</p>
-
-	<img class="object-none object-center w-64 h-64 bg-purple-500" src="test.png">
-
-	<p class="my-10">
-		object-right-bottom
-	</p>
-
-	<img class="object-none object-right-bottom w-64 h-64 bg-pink-500" src="test.png">
+	<div class="flex space-x-8">
+		<div class="flex-1 space-y-6">
+			<p>top</p>
+			<img class="object-none object-top w-64 h-64 bg-yellow-500" src="test.png">
+		</div>
+		<div class="flex-1 space-y-6">
+			<p>center</p>
+			<img class="object-none object-center w-64 h-64 bg-purple-500" src="test.png">
+		</div>
+		<div class="flex-1 space-y-6">
+			<p>right-bottom</p>
+			<img class="object-none object-right-bottom w-64 h-64 bg-pink-500" src="test.png">
+		</div>
+		<div class="flex-1 space-y-6">
+			<p>left-bottom</p>
+			<img class="object-none object-left-bottom w-64 h-64 bg-pink-500" src="test.png">
+		</div>
+	</div>
 
 </body>
 </html>

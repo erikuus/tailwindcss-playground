@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="m-10">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="../style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="space-y-4">
+
+	<p>
+		<b>flex > order-{first|last|1,2...11,12}</b>
+	</p>
+
+	<p>
+		NB! See võib olla kasulik responsive juhul
+	</p>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-1 order-last m-2 p-4 bg-yellow-500">1 last</div>
+		<div class="flex-1 m-2 p-4 bg-yellow-500">2</div>
+		<div class="flex-1 m-2 p-4 bg-yellow-500">3</div>
+	</div>
+
+	<div class="flex bg-gray-200 p-2">
+		<div class="flex-1 m-2 p-4 bg-yellow-500">1</div>
+		<div class="flex-1 m-2 p-4 bg-yellow-500">2</div>
+		<div class="flex-1 order-first m-2 p-4 bg-yellow-500">3 first</div>
+	</div>
+
+</body>
+</html>
