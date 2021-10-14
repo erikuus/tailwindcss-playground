@@ -1393,28 +1393,12 @@ select {
   grid-row: span 2 / span 2;
 }
 
-.row-span-3 {
-  grid-row: span 3 / span 3;
-}
-
 .row-start-2 {
   grid-row-start: 2;
 }
 
-.row-start-1 {
-  grid-row-start: 1;
-}
-
 .row-end-4 {
   grid-row-end: 4;
-}
-
-.row-end-3 {
-  grid-row-end: 3;
-}
-
-.row-end-2 {
-  grid-row-end: 2;
 }
 
 .float-right {
@@ -2676,6 +2660,18 @@ select {
   align-self: center;
 }
 
+.self-stretch {
+  align-self: stretch;
+}
+
+.self-baseline {
+  align-self: baseline;
+}
+
+.justify-self-auto {
+  justify-self: auto;
+}
+
 .justify-self-start {
   justify-self: start;
 }
@@ -2686,6 +2682,10 @@ select {
 
 .justify-self-center {
   justify-self: center;
+}
+
+.justify-self-stretch {
+  justify-self: stretch;
 }
 
 .overflow-auto {

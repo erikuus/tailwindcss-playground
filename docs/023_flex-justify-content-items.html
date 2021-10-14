@@ -157,14 +157,14 @@
 
 		<div class="flex-1 space-y-4">
 			<p>
-				<b>flex flex-wrap content-stretch > self-{start|center|end}</b>
+				<b>flex > self-{start|center|end|baseline|stretch}</b>
 			</p>
 
 			<p>
 				start
 			</p>
 
-			<div class="flex flex-wrap content-stretch bg-gray-200 h-32">
+			<div class="flex bg-gray-200 h-32">
 				<div class="p-4 mx-1 bg-yellow-500">1</div>
 				<div class="p-4 mx-1 bg-yellow-500 self-start">2</div>
 				<div class="p-4 mx-1 bg-yellow-500">3</div>
@@ -174,7 +174,7 @@
 				center
 			</p>
 
-			<div class="flex flex-wrap content-stretch bg-gray-200 h-32">
+			<div class="flex bg-gray-200 h-32">
 				<div class="p-4 mx-1 bg-yellow-500">1</div>
 				<div class="p-4 mx-1 bg-yellow-500 self-center">2</div>
 				<div class="p-4 mx-1 bg-yellow-500">3</div>
@@ -184,9 +184,28 @@
 				end
 			</p>
 
-			<div class="flex flex-wrap content-stretch bg-gray-200 h-32">
+			<div class="flex bg-gray-200 h-32">
 				<div class="p-4 mx-1 bg-yellow-500">1</div>
 				<div class="p-4 mx-1 bg-yellow-500 self-end">2</div>
+				<div class="p-4 mx-1 bg-yellow-500">3</div>
+			</div>
+			<p>
+				baseline
+			</p>
+
+			<div class="flex bg-gray-200 h-32">
+				<div class="p-4 mx-1 bg-yellow-500">1</div>
+				<div class="p-4 mx-1 bg-yellow-500 self-baseline">2</div>
+				<div class="p-4 mx-1 bg-yellow-500">3</div>
+			</div>
+
+			<p>
+				stretch
+			</p>
+
+			<div class="flex bg-gray-200 h-32">
+				<div class="p-4 mx-1 bg-yellow-500">1</div>
+				<div class="p-4 mx-1 bg-yellow-500 self-stretch">2</div>
 				<div class="p-4 mx-1 bg-yellow-500">3</div>
 			</div>
 		</div>
