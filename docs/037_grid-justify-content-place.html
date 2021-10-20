@@ -9,7 +9,7 @@
 	<div class="flex space-x-10">
 		<div class="flex-1 space-y-4">
 			<p>
-				<b>grid grid-cols-{n} justify-items-{start|center|end|stretch}</b>
+				<b>grid grid-cols-{n}<br />justify-items-<br />{start|center|end|stretch}</b>
 			</p>
 			<p>
 				start
@@ -66,7 +66,7 @@
 		</div>
 		<div class="flex-1 space-y-4">
 			<p>
-				<b>grid grid-cols-{n} > justify-self-{start|center|end|stretch}</b>
+				<b>grid grid-cols-{n}<br />> justify-self-<br />{start|center|end|stretch}</b>
 			</p>
 
 			<p>
@@ -123,7 +123,7 @@
 		</div>
 		<div class="flex-1 space-y-4">
 			<p>
-				<b>grid grid-cols-{n} content-{start|center|end|between|around|evenly}</b>
+				<b>grid grid-cols-{n}<br />content-<br />{start|center|end|between|around|evenly}</b>
 			</p>
 			<p>
 				start
@@ -205,7 +205,7 @@
 		</div>
 		<div class="flex-1 space-y-4">
 			<p>
-				<b>grid grid-cols-{n} > self-{start|center|end|baseline|stretch}</b>
+				<b>grid grid-cols-{n}<br />> self-<br />{start|center|end|baseline|stretch}</b>
 			</p>
 
 			<p>
@@ -273,11 +273,12 @@
 			</div>
 		</div>
 		<div class="flex-1 space-y-4">
-			<h2>
-				Place
-			</h2>
 			<p>
-				grid grid-cols-3 place-items-start
+				<b>grid grid-cols-{n}<br /> place-items-<br />{start|center|end|baseline|stretch}</b>
+			</p>
+
+			<p>
+				start
 			</p>
 
 			<div class="grid grid-cols-3 gap-3 place-items-start bg-gray-200 h-48">
@@ -290,7 +291,7 @@
 			</div>
 
 			<p>
-				grid grid-cols-3 place-items-center
+				center
 			</p>
 
 			<div class="grid grid-cols-3 gap-3 place-items-center bg-gray-200 h-48">
@@ -303,7 +304,7 @@
 			</div>
 
 			<p>
-				grid grid-cols-3 place-items-end
+				end
 			</p>
 
 			<div class="grid grid-cols-3 gap-3 place-items-end bg-gray-200 h-48">
@@ -316,7 +317,7 @@
 			</div>
 
 			<p>
-				grid grid-cols-3 place-items-stretch
+				stretch
 			</p>
 
 			<div class="grid grid-cols-3 gap-3 place-items-stretch bg-gray-200 h-48">
@@ -327,12 +328,18 @@
 				<div class="p-4 bg-yellow-500">5</div>
 				<div class="p-4 bg-yellow-500">6</div>
 			</div>
+		</div>
+		<div class="flex-1 space-y-4">
 
 			<p>
-				grid grid-cols-3 place-items-stretch (self-start)
+				<b>grid grid-cols-{n}<br />> place-self-<br />{start|center|end|auto}</b>
 			</p>
 
-			<div class="grid grid-cols-3 gap-3 place-items-stretch bg-gray-200 h-48">
+			<p>
+				start
+			</p>
+
+			<div class="grid grid-cols-3 gap-3 bg-gray-200 h-48">
 				<div class="p-4 bg-yellow-500">1</div>
 				<div class="p-4 bg-yellow-500 place-self-start">2</div>
 				<div class="p-4 bg-yellow-500">3</div>
@@ -342,10 +349,10 @@
 			</div>
 
 			<p>
-				grid grid-cols-3 place-items-stretch (self-center)
+				center
 			</p>
 
-			<div class="grid grid-cols-3 gap-3 place-items-stretch bg-gray-200 h-48">
+			<div class="grid grid-cols-3 gap-3 bg-gray-200 h-48">
 				<div class="p-4 bg-yellow-500">1</div>
 				<div class="p-4 bg-yellow-500 place-self-center">2</div>
 				<div class="p-4 bg-yellow-500">3</div>
@@ -355,10 +362,10 @@
 			</div>
 
 			<p>
-				grid grid-cols-3 place-items-stretch (self-end)
+				end
 			</p>
 
-			<div class="grid grid-cols-3 gap-3 place-items-stretch bg-gray-200 h-48">
+			<div class="grid grid-cols-3 gap-3 bg-gray-200 h-48">
 				<div class="p-4 bg-yellow-500">1</div>
 				<div class="p-4 bg-yellow-500 place-self-end">2</div>
 				<div class="p-4 bg-yellow-500">3</div>
