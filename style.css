@@ -1324,6 +1324,10 @@ select {
   position: static;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -1672,6 +1676,10 @@ select {
   height: 1rem;
 }
 
+.h-\[1200px\] {
+  height: 1200px;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -1778,6 +1786,10 @@ select {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .flex-1 {
@@ -2308,16 +2320,16 @@ select {
   list-style-position: outside;
 }
 
+.list-none {
+  list-style-type: none;
+}
+
 .list-disc {
   list-style-type: disc;
 }
 
 .list-decimal {
   list-style-type: decimal;
-}
-
-.list-none {
-  list-style-type: none;
 }
 
 .appearance-none {
@@ -2583,12 +2595,6 @@ select {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .divide-x > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-x-reverse: 0;
   border-right-width: calc(1px * var(--tw-divide-x-reverse));
@@ -2744,10 +2750,6 @@ select {
 
 .whitespace-pre-line {
   white-space: pre-line;
-}
-
-.whitespace-pre-wrap {
-  white-space: pre-wrap;
 }
 
 .break-normal {
