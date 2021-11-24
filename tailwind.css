@@ -9,6 +9,42 @@
   h2 {
     @apply text-xl;
   }
+  @font-face {
+    font-family: 'Satoshi';
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+    src: url('./fonts/Satoshi-Black.woff') format('woff'),
+      url('./fonts/Satoshi-Black.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+    src: url('./fonts/Inter-regular.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+    src: url('./fonts/Inter-Medium.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+    src: url('./fonts/Inter-SemiBold.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+    src: url('./fonts/Inter-Bold.ttf') format('ttf');
+  }
 }
 
 @layer components {

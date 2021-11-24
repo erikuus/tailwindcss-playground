@@ -1,6 +1,6 @@
 module.exports = {
   // presets: [
-  //   require('./tailwind.preset.js')
+  //   require('./custom.preset.js')
   // ],
   // corePlugins: {
   //   preflight: false,
