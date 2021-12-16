@@ -21,7 +21,9 @@
   }
 }
 // build
-npx tailwindcss -o style.css
+npx tailwindcss build tailwind.css -o style.css
+// or (if you have this script defined in package.json)
+npm run build
 	</pre>
 
 	<div class="w-64 h-16 overflow-x-hidden scrl-snap-y">

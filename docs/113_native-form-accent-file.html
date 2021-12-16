@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="m-10">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="../style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="space-y-6">
+
+	<p>
+		<b>accent-{black|white|slate|gray|zinc|neutral|stone|red|orange|amber|yellow|line|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose}-{50,100,200...900}</b>
+	</p>
+
+	<form>
+		<label class="mt-6 flex space-x-2 text-gray-600">
+			<input type="checkbox" class="accent-violet-500" checked/>
+			<span>Yes, send me all your stupid updates</span>
+		</label>
+	</form>
+
+	<p>
+		<b>{hover:|focus:}file:</b>
+	</p>
+
+	<form>
+		<div class="flex items-center space-x-6">
+			<div class="shrink-0">
+				<img class="h-16 w-16 object-cover rounded-full" src="../images/test.png" alt="Current profile photo" />
+			</div>
+			<label class="block">
+				<span class="sr-only">Choose profile photo</span>
+				<input type="file" class="block w-full text-gray-500
+					file:mr-4 file:py-2 file:px-4
+					file:rounded-full file:border-0
+					file:text-sm file:font-semibold
+					file:bg-violet-50 file:text-violet-700
+					hover:file:bg-violet-100
+				"/>
+			</label>
+		</div>
+	</form>
+
+</body>
+</html>

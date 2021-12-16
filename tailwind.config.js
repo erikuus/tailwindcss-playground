@@ -1,3 +1,5 @@
+// const colors = require('tailwindcss/colors')
+
 module.exports = {
   // presets: [
   //   require('./custom.preset.js')
@@ -6,17 +8,25 @@ module.exports = {
   //   preflight: false,
   // },
   mode: 'jit',
-  purge: [
+  content: [
     './docs/*.html',
+    './plugins/*.html',
     './labs/*.html',
     './views/*.php'
   ],
   plugins: [
-    require('@tailwindcss/forms'),
+    //require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/line-clamp')
   ],
-  theme: {},
+  theme: {
+    // colors: {
+    //   gray: colors.stone,
+    //   blue: colors.cyan,
+    //   red: colors.fuchsia,
+    //   white: colors.white
+    // }
+  },
   variants: {},
 }
