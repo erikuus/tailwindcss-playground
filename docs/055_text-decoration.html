@@ -5,15 +5,54 @@
 	<link rel="stylesheet" href="../style.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
-<body class="space-y-4">
+<body>
 
-	<p>
-		<b>{underline|no-underline|line-through}</b>
-	</p>
-
-	<div class="underline">underline</div>
-	<div class="no-underline">no-underline</div>
-	<div class="line-through">line-through</div>
+	<div class="flex space-x-8 m-4">
+		<div class="flex-1 space-y-6">
+			<p>
+				<b>{underline|no-underline|line-through}</b>
+			</p>
+			<p class="underline">underline</p>
+			<p class="no-underline">no-underline</p>
+			<p class="line-through">line-through</p>
+		</div>
+		<div class="flex-1 space-y-6">
+			<p>
+				<b>underline decoration-{black|...|rose}-{50,100,200...900}</b>
+			</p>
+			<p class="underline decoration-sky-500">underline decoration-sky-500</p>
+			<p class="underline decoration-rose-500">underline decoration-rose-500</p>
+		</div>
+		<div class="flex-1 space-y-6">
+			<p>
+				<b>underline decoration-{solid|double|dotted|dashed|wavy}</b>
+			</p>
+			<p class="underline decoration-solid">underline decoration-solid</p>
+			<p class="underline decoration-double">underline decoration-double</p>
+			<p class="underline decoration-dotted">underline decoration-dotted</p>
+			<p class="underline decoration-dashed">underline decoration-dashed</p>
+			<p class="underline decoration-wavy">underline decoration-wavy</p>
+		</div>
+		<div class="flex-1 space-y-6">
+			<p>
+				<b>underline decoration-{auto|from-font|0,1,2,4,8}</b>
+			</p>
+			<p class="underline decoration-auto">underline decoration-auto</p>
+			<p class="underline decoration-from-font">underline decoration-from-font</p>
+			<p class="underline decoration-1">underline decoration-1</p>
+			<p class="underline decoration-2">underline decoration-2</p>
+			<p class="underline decoration-4">underline decoration-4</p>
+		</div>
+		<div class="flex-1 space-y-6">
+			<p>
+				<b>underline underline-offset-{auto|0,1,2,4,8}</b>
+			</p>
+			<p class="underline underline-offset-auto">underline underline-offset-auto</p>
+			<p class="underline underline-offset-1">underline underline-offset-1</p>
+			<p class="underline underline-offset-2">underline underline-offset-2</p>
+			<p class="underline underline-offset-4">underline underline-offset-4</p>
+		</div>
+	</div>
 
 </body>
 </html>
