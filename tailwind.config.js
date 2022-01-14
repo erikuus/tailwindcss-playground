@@ -1,9 +1,9 @@
 // const colors = require('tailwindcss/colors')
 
 module.exports = {
-  // presets: [
-  //   require('./custom.preset.js')
-  // ],
+  presets: [
+    require('./custom.preset.js')
+  ],
   // corePlugins: {
   //   preflight: false,
   // },

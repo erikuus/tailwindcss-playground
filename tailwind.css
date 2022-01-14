@@ -48,11 +48,11 @@
   }
 }
 
-@layer components {
+/*@layer components {
   .btn-blue {
     @apply bg-blue-500 hover:bg-blue-700 text-white font-bold pt-1 pb-2 px-4 rounded;
   }
-}
+}*/
 
 @layer utilities {
   .scrl-snap-none {

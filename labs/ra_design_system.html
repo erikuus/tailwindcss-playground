@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html class="m-6">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="../style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="font-inter">
+
+<div class="flex">
+	<div class="flex-1 space-y-4">
+		<div class="text-2xl font-satoshi">
+			CSS Utilities
+		</div>
+		<div class="text-2xl font-satoshi">
+			colors
+		</div>
+		<div class=" grid grid-cols-5 gap-y-4 content-start mb-6 w-80">
+			<div class="w-10 h-10 bg-primary-lighter"></div>
+			<div class="w-10 h-10 bg-primary-light"></div>
+			<div class="w-10 h-10 bg-primary-normal"></div>
+			<div class="w-10 h-10 bg-primary-dark"></div>
+			<div class="w-10 h-10 bg-primary-darker"></div>
+			<div class="w-10 h-10 bg-neutral-lighter"></div>
+			<div class="w-10 h-10 bg-neutral-light"></div>
+			<div class="w-10 h-10 bg-neutral-normal"></div>
+			<div class="w-10 h-10 bg-neutral-dark"></div>
+			<div class="w-10 h-10 bg-neutral-darker"></div>
+			<div class="w-10 h-10 bg-accent-1-lighter"></div>
+			<div class="w-10 h-10 bg-accent-1-light"></div>
+			<div class="w-10 h-10 bg-accent-1-normal"></div>
+			<div class="w-10 h-10 bg-accent-1-dark"></div>
+			<div class="w-10 h-10 bg-accent-1-darker"></div>
+			<div class="w-10 h-10 bg-accent-2-lighter"></div>
+			<div class="w-10 h-10 bg-accent-2-light"></div>
+			<div class="w-10 h-10 bg-accent-2-normal"></div>
+			<div class="w-10 h-10 bg-accent-2-dark"></div>
+			<div class="w-10 h-10 bg-accent-2-darker"></div>
+			<div class="w-10 h-10 bg-accent-3-lighter"></div>
+			<div class="w-10 h-10 bg-accent-3-light"></div>
+			<div class="w-10 h-10 bg-accent-3-normal"></div>
+			<div class="w-10 h-10 bg-accent-3-dark"></div>
+			<div class="w-10 h-10 bg-accent-3-darker"></div>
+		</div>
+		<div class="text-2xl font-satoshi">
+			borderRadius
+		</div>
+		<div class="mb-6 flex space-x-6 text-center">
+			<div class="w-[100px] h-[100px] bg-neutral-normal rounded-sm"></div>
+			<div class="w-[100px] h-[100px] bg-neutral-normal rounded-md"></div>
+			<div class="w-[100px] h-[100px] bg-neutral-normal rounded-lg"></div>
+		</div>
+		<div class="text-2xl font-satoshi">
+			boxShadows
+		</div>
+		<div class="mb-6 flex space-x-6 text-center">
+			<div class="w-[100px] h-[100px] shadow-sm"></div>
+			<div class="w-[100px] h-[100px] shadow-md"></div>
+			<div class="w-[100px] h-[100px] shadow-lg"></div>
+		</div>
+		<div class="text-2xl font-satoshi">
+			opacity
+		</div>
+		<div class="mb-6 flex space-x-6 text-center">
+			<div class="w-[100px] h-[100px] opacity-sm"><img src="../images/square.jpg"></div>
+			<div class="w-[100px] h-[100px] opacity-md"><img src="../images/square.jpg"></div>
+			<div class="w-[100px] h-[100px]"><img src="../images/square.jpg"></div>
+		</div>
+		<div class="text-2xl font-satoshi">
+			fontSize
+		</div>
+		<div class="mb-6 space-y-10">
+			<div class="text-xs">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra lectus id efficitur tempus. Phasellus magna dui, elementum ac eros at, congue aliquet risus. Praesent bibendum purus arcu, eget commodo nunc egestas sed. Etiam non metus sit amet ante sodales pretium.
+			</div>
+			<div class="text-sm">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra lectus id efficitur tempus. Phasellus magna dui, elementum ac eros at, congue aliquet risus. Praesent bibendum purus arcu, eget commodo nunc egestas sed. Etiam non metus sit amet ante sodales pretium.
+			</div>
+			<div class="text-xl">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra lectus id efficitur tempus. Phasellus magna dui, elementum ac eros at, congue aliquet risus. Praesent bibendum purus arcu, eget commodo nunc egestas sed.
+			</div>
+			<div class="text-2xl">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra lectus id efficitur tempus. Phasellus magna dui, elementum ac eros at, congue aliquet risus.
+			</div>
+			<div class="text-3xl">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra lectus id efficitur tempus.
+			</div>
+			<div class="text-4xl">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra lectus id efficitur tempus.
+			</div>
+			<div class="text-5xl">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			</div>
+			<div class="text-5xl font-satoshi">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			</div>
+		</div>
+	</div>
+	<div class="mr-6 flex-1">
+		<div class="text-2xl font-satoshi">
+			CSS Framework
+		</div>
+		<pre class="font-mono text-xs text-neutral-normal mt-5">
+module.exports = {
+	theme: {
+		colors: {
+			'primary-lighter': '#eff6ff',
+			'primary-light': '#bfdbfe',
+			'primary-normal': '#3b82f6',
+			'primary-dark': '#1d4ed8',
+			'primary-darker': '#1e3a8a',
+			'neutral-lighter': '#fafafa',
+			'neutral-light': '#e5e5e5',
+			'neutral-normal': '#737373',
+			'neutral-dark': '#404040',
+			'neutral-darker': '#171717',
+			'accent-1-lighter': '#fef2f2',
+			'accent-1-light': '#fecaca',
+			'accent-1-normal': '#ef4444',
+			'accent-1-dark': '#b91c1c',
+			'accent-1-darker': '#7f1d1d',
+			'accent-2-lighter': '#fefce8',
+			'accent-2-light': '#fef08a',
+			'accent-2-normal': '#eab308',
+			'accent-2-dark': '#a16207',
+			'accent-2-darker': '#713f12',
+			'accent-3-lighter': '#f0fdf4',
+			'accent-3-light': '#bbf7d0',
+			'accent-3-normal': '#22c55e',
+			'accent-3-dark': '#15803d',
+			'accent-3-darker': '#14532d'
+		},
+		borderRadius: {
+			'sm': '.125rem',
+			'md': '.25rem',
+			'lg': '.5rem'
+		},
+		boxShadow: {
+			'sm': '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
+			'md': '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
+			'lg': '0 25px 50px -12px rgb(0 0 0 / 0.25)'
+		},
+		opacity: {
+			'sm': '0.2',
+			'md': '0.6'
+		},
+		backdropBlur: {
+			'sm': 'backdrop-filter: blur(4px)',
+			'md': 'backdrop-filter: blur(12px)'
+		},
+		fontSize: {
+			xs: ['14px', {
+				lineHeight: '24px',
+				letterSpacing: '-0.03em'
+			}],
+			sm: ['16px', {
+				lineHeight: '28px',
+				letterSpacing: '-0.03em'
+			}],
+			lg: ['18px', {
+				lineHeight: '28px',
+				letterSpacing: '-0.03em'
+			}],
+			xl: ['24px', {
+				lineHeight: '36px',
+				letterSpacing: '-0.03em'
+			}],
+			'2xl': ['36px', {
+				lineHeight: '48px',
+				letterSpacing: '-0.032em'
+			}],
+			'3xl': ['48px', {
+				lineHeight: '56px',
+				letterSpacing: '-0.032em'
+			}],
+			'4xl': ['56px', {
+				lineHeight: '64px',
+				letterSpacing: '-0.032em'
+			}],
+			'5xl': ['80px', {
+				lineHeight: '80px',
+				letterSpacing: '-0.032em'
+			}]
+		},
+		fontFamily: {
+			satoshi: 'Satoshi, sans-serif',
+			inter: 'Inter, sans-serif'
+		}
+	}
+}
+		</pre>
+	</div>
+	<div class="mr-6 flex-1">
+		<div class="text-2xl font-satoshi">
+			Components
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
