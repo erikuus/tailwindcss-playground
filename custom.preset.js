@@ -1,6 +1,7 @@
 module.exports = {
 	theme: {
 		colors: {
+			'white': '#FFFFFF',
 			'primary-lighter': '#eff6ff',
 			'primary-light': '#bfdbfe',
 			'primary-normal': '#3b82f6',
@@ -28,9 +29,10 @@ module.exports = {
 			'accent-3-darker': '#14532d'
 		},
 		borderRadius: {
-			'sm': '.125rem',
-			'md': '.25rem',
-			'lg': '.5rem'
+			'sm': '.25rem',
+			'md': '.375rem',
+			'lg': '.5rem',
+			'full': '1rem'
 		},
 		boxShadow: {
 			'sm': '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
@@ -43,8 +45,7 @@ module.exports = {
 		},
 		fontSize: {
 			xs: ['14px', {
-				lineHeight: '24px',
-				letterSpacing: '-0.03em'
+				lineHeight: '24px'
 			}],
 			sm: ['16px', {
 				lineHeight: '28px',
