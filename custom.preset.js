@@ -2,16 +2,16 @@ module.exports = {
 	theme: {
 		colors: {
 			'white': '#FFFFFF',
-			'primary-lighter': '#eff6ff',
-			'primary-light': '#bfdbfe',
-			'primary-normal': '#3b82f6',
-			'primary-dark': '#1d4ed8',
-			'primary-darker': '#1e3a8a',
-			'neutral-lighter': '#fafafa',
-			'neutral-light': '#e5e5e5',
-			'neutral-normal': '#737373',
-			'neutral-dark': '#404040',
-			'neutral-darker': '#171717',
+			'primary-lighter': '#f0f9ff',
+			'primary-light': '#bae6fd',
+			'primary-normal': '#0ea5e9',
+			'primary-dark': '#0369a1',
+			'primary-darker': '#0c4a6e',
+			'neutral-lighter': '#f9fafb',
+			'neutral-light': '#e5e7eb',
+			'neutral-normal': '#6b7280',
+			'neutral-dark': '#374151',
+			'neutral-darker': '#111827',
 			'accent-1-lighter': '#fef2f2',
 			'accent-1-light': '#fecaca',
 			'accent-1-normal': '#ef4444',
@@ -32,7 +32,7 @@ module.exports = {
 			'sm': '.25rem',
 			'md': '.375rem',
 			'lg': '.5rem',
-			'full': '1rem'
+			'full': '9999px'
 		},
 		boxShadow: {
 			'sm': '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
@@ -41,7 +41,8 @@ module.exports = {
 		},
 		opacity: {
 			'sm': '0.2',
-			'md': '0.6'
+			'md': '0.6',
+			'full': '1'
 		},
 		fontSize: {
 			xs: ['14px', {

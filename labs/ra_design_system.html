@@ -9,8 +9,11 @@
 
 <div class="flex space-x-4">
 	<div class="flex-1 space-y-4">
-		<div class="text-2xl font-satoshi">
+		<div class="text-2xl font-satoshi flex items-baseline">
 			CSS Utilities
+			<svg class="ml-5" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+				<path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/>
+			</svg>
 		</div>
 		<div class="text-xl font-satoshi">
 			colors
@@ -62,9 +65,9 @@
 			opacity
 		</div>
 		<div class="mb-6 flex space-x-6 text-center">
-			<div class="w-[100px] h-[100px] opacity-sm"><img src="../images/square.jpg"></div>
-			<div class="w-[100px] h-[100px] opacity-md"><img src="../images/square.jpg"></div>
-			<div class="w-[100px] h-[100px]"><img src="../images/square.jpg"></div>
+			<img class="w-[100px] h-[100px] opacity-sm" src="../images/square.jpg">
+			<img class="w-[100px] h-[100px] opacity-md" src="../images/square.jpg">
+			<img class="w-[100px] h-[100px]" src="../images/square.jpg">
 		</div>
 		<div class="text-xl font-satoshi">
 			fontSize
@@ -97,28 +100,32 @@
 		</div>
 	</div>
 	<div class="mr-6 flex-1">
-		<div class="text-2xl font-satoshi">
+		<div class="text-2xl font-satoshi flex items-baseline">
 			CSS Framework
+			<svg class="ml-5" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+				<path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/>
+			</svg>
 		</div>
 		<pre class="font-mono text-xs text-neutral-normal mt-5">
 module.exports = {
 	theme: {
 		colors: {
-			'primary-lighter': '#eff6ff',
-			'primary-light': '#bfdbfe',
-			'primary-normal': '#3b82f6',
-			'primary-dark': '#1d4ed8',
-			'primary-darker': '#1e3a8a',
-			'neutral-lighter': '#fafafa',
-			'neutral-light': '#e5e5e5',
-			'neutral-normal': '#737373',
-			'neutral-dark': '#404040',
-			'neutral-darker': '#171717',
+			'white': '#FFFFFF',
+			'primary-lighter': '#f0f9ff',
+			'primary-light': '#bae6fd',
+			'primary-normal': '#0ea5e9',
+			'primary-dark': '#0369a1',
+			'primary-darker': '#0c4a6e',
+			'neutral-lighter': '#f9fafb',
+			'neutral-light': '#e5e7eb',
+			'neutral-normal': '#6b7280',
+			'neutral-dark': '#374151',
+			'neutral-darker': '#111827',
 			'accent-1-lighter': '#fef2f2',
 			'accent-1-light': '#fecaca',
 			'accent-1-normal': '#ef4444',
-			'accent-1-dark': '#b91c1c',
-			'accent-1-darker': '#7f1d1d',
+			'accent-1-normal': '#b91c1c',
+			'accent-1-normaler': '#7f1d1d',
 			'accent-2-lighter': '#fefce8',
 			'accent-2-light': '#fef08a',
 			'accent-2-normal': '#eab308',
@@ -131,9 +138,10 @@ module.exports = {
 			'accent-3-darker': '#14532d'
 		},
 		borderRadius: {
-			'sm': '.125rem',
-			'md': '.25rem',
-			'lg': '.5rem'
+			'sm': '.25rem',
+			'md': '.375rem',
+			'lg': '.5rem',
+			'full': '9999px'
 		},
 		boxShadow: {
 			'sm': '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
@@ -142,16 +150,12 @@ module.exports = {
 		},
 		opacity: {
 			'sm': '0.2',
-			'md': '0.6'
-		},
-		backdropBlur: {
-			'sm': 'backdrop-filter: blur(4px)',
-			'md': 'backdrop-filter: blur(12px)'
+			'md': '0.6',
+			'full': '1'
 		},
 		fontSize: {
 			xs: ['14px', {
-				lineHeight: '24px',
-				letterSpacing: '-0.03em'
+				lineHeight: '24px'
 			}],
 			sm: ['16px', {
 				lineHeight: '28px',
@@ -200,13 +204,19 @@ module.exports = {
 		<img class="w-full block" src="../images/components/primary-colors.png">
 		<img class="w-full block" src="../images/components/neutral-colors.png">
 		<div class="text-xl font-satoshi">
-			borderRadius & boxShadow
+			borderRadius & boxShadow & fontSize
 		</div>
 		<form action="#">
-			<input type="submit" value="Save" class="w-36 text-white bg-primary-normal px-4 py-2 rounded-sm shadow-sm hover:bg-primary-dark focus:outline-none">
+			<input type="submit" value="Save" class="w-36 text-xs text-white bg-primary-dark px-4 py-2 rounded-sm shadow-sm hover:bg-primary-normal focus:outline-none cursor-pointer">
 		</form>
-
-		<div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-lg transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+		<div class="mt-2 w-36 rounded-md shadow-md border border-neutral-light bg-white">
+			<div class="py-1">
+				<a href="#" class="text-neutral-dark block px-4 py-2 text-xs hover:bg-neutral-light">Settings</a>
+				<a href="#" class="text-neutral-dark block px-4 py-2 text-xs hover:bg-neutral-light">Support</a>
+				<a href="#" class="text-neutral-dark block px-4 py-2 text-xs hover:bg-neutral-light">Sign out</a>
+			</div>
+		</div>
+		<div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-lg border border-neutral-lighter sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
 			<div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
 				<div class="sm:flex sm:items-start">
 				<div class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-accent-1-lighter sm:mx-0 sm:h-10 sm:w-10">
@@ -227,19 +237,22 @@ module.exports = {
 				</div>
 			</div>
 			<div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
-				<button type="button" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-accent-1-normal text-sm text-white hover:bg-accent-1-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent-1-normal sm:ml-3 sm:w-auto sm:text-xs">
-				Deactivate
+				<button type="button" class="w-full inline-flex justify-center rounded-md border border-accent-1-dark shadow-sm px-4 py-2 bg-accent-1-dark text-xs text-white hover:bg-accent-1-normal hover:border-accent-1-normal focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent-1-normal sm:ml-3 sm:w-auto sm:text-xs">
+					Deactivate
 				</button>
 				<button type="button" class="mt-3 w-full inline-flex justify-center rounded-md border border-neutral-light shadow-sm px-4 py-2 bg-white text-neutral-normal hover:bg-neutral-lighter focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-xs">
-				Cancel
+					Cancel
 				</button>
 			</div>
-			</div>
 		</div>
+		<div class="text-xl font-satoshi">
+			opacity
 		</div>
-
+		<img class="w-36 h-36 rounded-lg shadow-md opacity-md hover:opacity-full" src="../images/square.jpg">
+		<form action="#">
+			<input type="submit" value="Save" class="w-36 text-xs text-white bg-primary-dark px-4 py-2 rounded-sm shadow-sm opacity-sm cursor-not-allowed">
+		</form>
 	</div>
-
 </div>
 
 </body>
