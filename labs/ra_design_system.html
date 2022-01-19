@@ -154,18 +154,18 @@ module.exports = {
 			'full': '1'
 		},
 		fontSize: {
-			xs: ['14px', {
+			'xs': ['14px', {
 				lineHeight: '24px'
 			}],
-			sm: ['16px', {
+			'sm': ['16px', {
 				lineHeight: '28px',
 				letterSpacing: '-0.03em'
 			}],
-			lg: ['18px', {
+			'lg': ['18px', {
 				lineHeight: '28px',
 				letterSpacing: '-0.03em'
 			}],
-			xl: ['24px', {
+			'xl': ['24px', {
 				lineHeight: '36px',
 				letterSpacing: '-0.03em'
 			}],
@@ -187,8 +187,16 @@ module.exports = {
 			}]
 		},
 		fontFamily: {
-			satoshi: 'Satoshi, sans-serif',
-			inter: 'Inter, sans-serif'
+			'satoshi': 'Satoshi, sans-serif',
+			'inter': 'Inter, sans-serif'
+		},
+		spacing: {
+			'1': '8px',
+			'2': '12px',
+			'3': '16px',
+			'4': '24px',
+			'5': '32px',
+			'6': '48px'
 		}
 	}
 }
@@ -252,6 +260,11 @@ module.exports = {
 		<form action="#">
 			<input type="submit" value="Save" class="w-36 text-xs text-white bg-primary-dark px-4 py-2 rounded-sm shadow-sm opacity-sm cursor-not-allowed">
 		</form>
+		<div class="text-xl font-satoshi">
+			spacing
+		</div>
+		<img class="w-full block" src="../images/components/spacing-nosys.png">
+		<img class="w-full block" src="../images/components/spacing-sys.png">
 	</div>
 </div>
 
