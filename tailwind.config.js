@@ -1,9 +1,9 @@
 // const colors = require('tailwindcss/colors')
 
 module.exports = {
-  presets: [
-    require('./custom.preset.js')
-  ],
+  // presets: [
+  //   require('./custom.preset.js')
+  // ],
   // corePlugins: {
   //   preflight: false,
   // },
@@ -12,6 +12,7 @@ module.exports = {
     './docs/*.html',
     './plugins/*.html',
     './labs/*.html',
+    './comps/*.html',
     './views/*.php'
   ],
   plugins: [
@@ -21,6 +22,9 @@ module.exports = {
     require('@tailwindcss/line-clamp')
   ],
   theme: {
+    fontFamily: {
+      inter: 'Inter, sans-serif'
+    }
     // colors: {
     //   gray: colors.stone,
     //   blue: colors.cyan,
