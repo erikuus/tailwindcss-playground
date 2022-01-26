@@ -16,14 +16,16 @@ module.exports = {
     './views/*.php'
   ],
   plugins: [
-    require('@tailwindcss/forms'),
+    //require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     //require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/line-clamp')
   ],
   theme: {
-    fontFamily: {
-      inter: 'Inter, sans-serif'
+    extend : {
+      fontFamily: {
+        inter: 'Inter, sans-serif'
+      }
     }
     // colors: {
     //   gray: colors.stone,
