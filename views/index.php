@@ -23,17 +23,17 @@
 			<?php endforeach; ?>
 		</div>
 		<div class="flex-1 bg-gray-100 p-4">
-			<h1>Components</h1>
-			<?php foreach(array_diff(scandir('../comps'), array('..', '.')) as $file): ?>
-				<a target="_blank" class="block mx-10 my-1 text-blue-500" href="../comps/<?php echo $file ?>">
+			<h1>Labs</h1>
+			<?php foreach(array_diff(scandir('../labs'), array('..', '.')) as $file): ?>
+				<a target="_blank" class="block mx-10 my-1 text-blue-500" href="../labs/<?php echo $file ?>">
 					<?php echo $file ?>
 				</a>
 			<?php endforeach; ?>
 		</div>
 		<div class="flex-1 bg-gray-100 p-4">
-			<h1>Labs</h1>
-			<?php foreach(array_diff(scandir('../labs'), array('..', '.')) as $file): ?>
-				<a target="_blank" class="block mx-10 my-1 text-blue-500" href="../labs/<?php echo $file ?>">
+			<h1>Private playground</h1>
+			<?php foreach(array_diff(scandir('../private'), array('..', '.')) as $file): ?>
+				<a target="_blank" class="block mx-10 my-1 text-blue-500" href="../private/<?php echo $file ?>">
 					<?php echo $file ?>
 				</a>
 			<?php endforeach; ?>
