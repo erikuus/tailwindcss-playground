@@ -13,6 +13,7 @@ module.exports = {
     './plugins/*.html',
     './labs/*.html',
     './comps/*.html',
+    './private/*.html',    
     './views/*.php'
   ],
   plugins: [
