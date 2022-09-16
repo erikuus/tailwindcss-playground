@@ -31,7 +31,7 @@
 			<?php endforeach; ?>
 		</div>
 		<div class="flex-1 bg-gray-100 p-4">
-			<h1>Private playground</h1>
+			<h1>Private</h1>
 			<?php foreach(array_diff(scandir('../private'), array('..', '.')) as $file): ?>
 				<a target="_blank" class="block mx-10 my-1 text-blue-500" href="../private/<?php echo $file ?>">
 					<?php echo $file ?>
