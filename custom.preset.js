@@ -1,81 +1,32 @@
 module.exports = {
 	theme: {
+		screens: {
+			'tablet': '960px',
+			'desktop': '1248px',
+		},
 		colors: {
-			'white': '#FFFFFF',
-			'primary-lighter': '#f0f9ff',
-			'primary-light': '#bae6fd',
-			'primary-normal': '#0ea5e9',
-			'primary-dark': '#0369a1',
-			'primary-darker': '#0c4a6e',
-			'neutral-lighter': '#f9fafb',
-			'neutral-light': '#e5e7eb',
-			'neutral-normal': '#6b7280',
-			'neutral-dark': '#374151',
-			'neutral-darker': '#111827',
-			'accent-1-lighter': '#fef2f2',
-			'accent-1-light': '#fecaca',
-			'accent-1-normal': '#ef4444',
-			'accent-1-dark': '#b91c1c',
-			'accent-1-darker': '#7f1d1d',
-			'accent-2-lighter': '#fefce8',
-			'accent-2-light': '#fef08a',
-			'accent-2-normal': '#eab308',
-			'accent-2-dark': '#a16207',
-			'accent-2-darker': '#713f12',
-			'accent-3-lighter': '#f0fdf4',
-			'accent-3-light': '#bbf7d0',
-			'accent-3-normal': '#22c55e',
-			'accent-3-dark': '#15803d',
-			'accent-3-darker': '#14532d'
+			white: '#FFFFFF',
+			purple: '#3F3CBB',
+			midnight: '#121063',
+			metal: '#565584',
+			'tahiti-blue': '#3AB7BF',
+			'cool-white': '#ECEBFF',
+			'bubble-gum': '#FF77E9',
+			'copper-rust': '#78DCCA'
 		},
-		borderRadius: {
-			'sm': '.25rem',
-			'md': '.375rem',
-			'lg': '.5rem',
-			'full': '9999px'
-		},
-		boxShadow: {
-			'sm': '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
-			'md': '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
-			'lg': '0 25px 50px -12px rgb(0 0 0 / 0.25)'
-		},
-		opacity: {
-			'sm': '0.2',
-			'md': '0.6',
-			'full': '1'
+		boxShadows: {
+			sm: '0px 2px 4px 0px rgba(11, 10, 55, 0.15)',
+			lg: '0px 8px 20px Opx rgba(18, 16, 99, 0.06)'
 		},
 		fontSize: {
-			xs: ['14px', {
-				lineHeight: '24px'
-			}],
-			sm: ['16px', {
-				lineHeight: '28px',
-				letterSpacing: '-0.03em'
-			}],
-			lg: ['18px', {
-				lineHeight: '28px',
-				letterSpacing: '-0.03em'
-			}],
-			xl: ['24px', {
-				lineHeight: '36px',
-				letterSpacing: '-0.03em'
-			}],
-			'2xl': ['36px', {
-				lineHeight: '48px',
-				letterSpacing: '-0.032em'
-			}],
-			'3xl': ['48px', {
-				lineHeight: '56px',
-				letterSpacing: '-0.032em'
-			}],
-			'4xl': ['56px', {
-				lineHeight: '64px',
-				letterSpacing: '-0.032em'
-			}],
-			'5xl': ['80px', {
-				lineHeight: '80px',
-				letterSpacing: '-0.032em'
-			}]
+			xs: ['14px', {lineHeight: '24px', letterSpacing: '-0.03em' }],
+			sm: ['16px', {lineHeight: '28px', letterSpacing: '-0.03em' }],
+			lg: ['18px', {lineHeight: '28px', letterSpacing: '-0.03em' }],
+			xl: ['24px', {lineHeight: '36px', letterSpacing: '-0.03em' }],
+			'2xl': ['36px', {lineHeight: '48px', letterSpacing: '-0.032em' }],
+			'3xl': ['48px', {lineHeight: '56px', letterSpacing: '-0.032em' }],
+			'4xl': ['56px', {lineHeight: '64px', letterSpacing: '-0.032em' }],
+			'5xl': ['80px', {lineHeight: '80px', letterSpacing: '-0.032em' }]
 		},
 		fontFamily: {
 			satoshi: 'Satoshi, sans-serif',
