@@ -13,13 +13,13 @@ module.exports = {
     './plugins/*.html',
     './labs/*.html',
     './comps/*.html',
-    './private/*.html',    
+    './private/*.html',
     './views/*.php'
   ],
   plugins: [
-    //require('@tailwindcss/forms'),
+    require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
-    //require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/line-clamp')
   ],
   theme: {
