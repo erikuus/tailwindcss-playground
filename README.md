@@ -176,23 +176,23 @@
 
 [087_effect-bg-blend-mode.html](./docs/087_effect-bg-blend-mode.html)
 
-[088_(backdrop-)filter-blur.html](./docs/088_{backdrop-}filter-blur.html)
+[088_backdrop-filter-blur.html](./docs/088_backdrop-filter-blur.html)
 
-[089_(backdrop-)filter-brightness.html](./docs/089_{backdrop-}filter-brightness.html)
+[089_backdrop-filter-brightness.html](./docs/089_backdrop-filter-brightness.html)
 
-[090_(backdrop-)filter-contrast.html](./docs/090_{backdrop-}filter-contrast.html)
+[090_backdrop-filter-contrast.html](./docs/090_backdrop-filter-contrast.html)
 
 [091_filter-drop-shadow.html](./docs/091_filter-drop-shadow.html)
 
-[092_(backdrop-)filter-grayscale.html](./docs/092_{backdrop-}filter-grayscale.html)
+[092_backdrop-filter-grayscale.html](./docs/092_backdrop-filter-grayscale.html)
 
-[093_(backdrop-)filter-hue-rotate.html](./docs/093_{backdrop-}filter-hue-rotate.html)
+[093_backdrop-filter-hue-rotate.html](./docs/093_backdrop-filter-hue-rotate.html)
 
-[094_(backdrop-)filter-invert.html](./docs/094_{backdrop-}filter-invert.html)
+[094_backdrop-filter-invert.html](./docs/094_backdrop-filter-invert.html)
 
-[095_(backdrop-)filter-saturate.html](./docs/095_{backdrop-}filter-saturate.html)
+[095_backdrop-filter-saturate.html](./docs/095_backdrop-filter-saturate.html)
 
-[096_(backdrop-)filter-sepia.html](./docs/096_{backdrop-}filter-sepia.html)
+[096_backdrop-filter-sepia.html](./docs/096_backdrop-filter-sepia.html)
 
 [097_table-border.html](./docs/097_table-border.html)
 
