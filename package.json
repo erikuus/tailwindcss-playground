@@ -4,22 +4,22 @@
   "description": "Minu katsetused tailwindcss raamistikuga",
   "main": "tailwind.config.js",
   "scripts": {
-    "dev": "npx tailwindcss build -i tailwind.css -o style.css --watch",
-    "build": "npx tailwindcss build tailwind.css -o style.css",
+    "dev": "npx tailwindcss -i tailwind.css -o style.css --watch",
+    "build": "npx tailwindcss -i tailwind.css -o style.css --minify",
     "minify": "postcss style.css -u cssnano --no-map -o style.min.css"
   },
   "keywords": [],
   "author": "Erik Uus",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/cli": "^4.1.7",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/line-clamp": "^0.3.0",
     "@tailwindcss/typography": "^0.5.0",
     "autoprefixer": "^10.4.0",
     "minimatch": "^3.0.5",
     "postcss": "^8.4.32",
-    "tailwindcss": "^3.0.2"
+    "tailwindcss": "^4.1.7"
   }
 }
